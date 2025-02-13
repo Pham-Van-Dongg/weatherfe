@@ -1,0 +1,52 @@
+.weather {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-container {
+  width: 750px;
+  height: 550px;
+  background-color: blue;
+  /* căn giữa theo chiều ngang */
+  justify-items: center;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  width: 750px;
+  height: 75px;
+  /* căn giữa theo chiều ngang */
+  justify-content: center;
+  /* căn giữa theo chiều dọc */
+  align-items: center;
+  /* Bo góc */
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: black;
+  font-size: 130%;
+}
+#a {
+  opacity: 0.9;
+}
+
+.weather-info {
+  width: 750px;
+  height: 400px;
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+.weather-pictured {
+  display: flex;
+  width: 750px;
+  gap: 10px;
+  justify-content: center;
+}

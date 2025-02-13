@@ -1,0 +1,36 @@
+.input {
+  display: flex;
+  align-items: center; /* Căn giữa input và button theo chiều dọc */
+  gap: 10px; /* Tạo khoảng cách giữa input và button */
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto; /* Căn giữa theo chiều ngang */
+}
+
+.input input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input input:focus {
+  border-color: #3498db; /* Đổi màu viền khi focus */
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
